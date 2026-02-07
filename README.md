@@ -1,13 +1,16 @@
- React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Appointly is a high-performance, smart management queue system designed to bridge the gap between service providers and clients. No more crowded waiting rooms or chaotic scheduling—just seamless, automated appointment flow.
 
-Currently, two official plugins are available:
+## Key Features
+- Smart Queueing: Real-time queue positioning and estimated wait time updates.
+- Seamless Booking: Intuitive calendar interface for one-click scheduling.
+- Automated Management: Intelligent slot allocation to prevent overbooking.
+- Responsive Design: Fully optimized for Desktop, Tablet, and Mobile.
+- Live Notifications: HMR-powered updates so users never miss their turn.
 
-@vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
-React Compiler
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see this documentation.
-
-Expanding the ESLint configuration
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template for information on how to integrate TypeScript and typescript-eslint in your project.
-
+## Tech Stack :
+Layer,Technology
+Frontend,React 18+ (Vite)
+Styling,Tailwind CSS
+State Management,React Context / Zustand
+Linting,ESLint + Prettier
+Build Tool,Vite
